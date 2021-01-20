@@ -1,3 +1,21 @@
+# SneakerHead
+A small E-commerce store for sneaker re-sell.
+
+## Technologies Used
+- HTML5
+- CSS3
+- React.js
+- Commerce.js
+- Material UI
+- Stripe.js
+
+## Getting Started
+[Click Here](https://nifty-noyce-5c37bf.netlify.app/) to see the deployed app!
+
+## Future Enchancments
+- Add authentication
+- Update styling
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
