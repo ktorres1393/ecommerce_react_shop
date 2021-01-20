@@ -4,9 +4,12 @@ export default makeStyles(() => ({
   root: {
     // maxWidth: 345, original width style
     maxWidth: '100%',
+    backgroundColor: '#B8B8B8',
+    boxShadow: '1px 1px 5px 3px grey'
+    
   },
   media: {
-    height: 0,
+    height: 10,
     paddingTop: '56.25%', // 16:9
   },
   cardActions: {
@@ -17,4 +20,5 @@ export default makeStyles(() => ({
     display: 'flex',
     justifyContent: 'space-between',
   },
+  
 }));

@@ -1,9 +1,11 @@
 import { makeStyles, fade } from '@material-ui/core/styles';
 
+
 const drawerWidth = 0;
 
 export default makeStyles((theme) => ({
   appBar: {
+    backgroundColor: `white`, 
     boxShadow: 'none',
     borderBottom: '1px solid rgba(0, 0, 0, 0.12)',
     [theme.breakpoints.up('sm')]: {
@@ -18,6 +20,8 @@ export default makeStyles((theme) => ({
     textDecoration: 'none',
   },
   image: {
+    width: '250px',
+    height: '100px',
     marginRight: '10px',
   },
   menuButton: {
@@ -32,9 +36,9 @@ export default makeStyles((theme) => ({
   search: {
     position: 'relative',
     borderRadius: theme.shape.borderRadius,
-    backgroundColor: fade(theme.palette.common.white, 0.15),
+    backgroundColor: fade(theme.palette.common.black, 0.15),
     '&:hover': {
-      backgroundColor: fade(theme.palette.common.white, 0.25),
+      backgroundColor: fade(theme.palette.common.black, 0.25),
     },
     marginRight: theme.spacing(2),
     marginLeft: 0,
@@ -53,7 +57,7 @@ export default makeStyles((theme) => ({
     justifyContent: 'center',
   },
   inputRoot: {
-    color: 'inherit',
+    color: 'secondary',
   },
   inputInput: {
     padding: theme.spacing(1, 1, 1, 0),
